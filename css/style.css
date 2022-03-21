@@ -162,9 +162,40 @@ body{
     HOVER IMG
 -----------*/
 
-.img-product{
+.img-product.primo{
     background-image: url("../img/1.webp");
     background-size: cover ;
     background-repeat: no-repeat;
 }
+
+.img-product.secondo{
+    background-image: url("../img/2.webp");
+    background-size: cover ;
+    background-repeat: no-repeat;
+}
+
+.img-product.terza{
+    background-image: url("../img/3.webp");
+    background-size: cover ;
+    background-repeat: no-repeat;
+}
+
+.img-product.quarta{
+    background-image: url("../img/4.webp");
+    background-size: cover ;
+    background-repeat: no-repeat;
+}
+
+.img-product.quinta{
+    background-image: url("../img/5.webp");
+    background-size: cover ;
+    background-repeat: no-repeat;
+}
+
+.img-product.sesta{
+    background-image: url("../img/6.webp");
+    background-size: cover ;
+    background-repeat: no-repeat;
+}
+
 
