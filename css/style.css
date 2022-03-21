@@ -13,6 +13,18 @@ body{
 }
 
 /*-----------
+    VARIABILI
+------------*/
+
+:root{
+    --colore-bg-prezzi: #eb0037;
+    --colore-bg-eco: #00875a;
+}
+
+
+
+
+/*-----------
     COMMON
 ------------*/
 
@@ -41,6 +53,11 @@ body{
     margin: 0 15px;
 }
 
+
+/*-----------
+    IMG-PRODUCT
+------------*/
+
 .img-product img{
     width: 100%;
 }
@@ -65,4 +82,59 @@ body{
     right: 0;
 }
 
-.tag-box{}
+/*-----------
+    TAG BOX
+------------*/
+
+.tag-box{
+    bottom: 15px;
+    color: white;
+}
+
+.tag-box.eco::after{
+    content:"Sostenibilità";
+    padding: 4px;
+    font-size: x-small;
+    font-weight: 700;
+    display: inline-block;
+    background-color: var(--colore-bg-eco);
+}
+
+.tag-box.discount-50::before{
+    content:"-50%";
+    padding: 4px;
+    font-size: x-small;
+    font-weight: 700;
+    display: inline-block;
+    background-color: var(--colore-bg-prezzi);
+}
+
+.tag-box.discount-50::before{
+    content:"-50%";
+    padding: 4px;
+    font-size: x-small;
+    font-weight: 700;
+    display: inline-block;
+    background-color: var(--colore-bg-prezzi);
+}
+
+.tag-box.discount-30::before{
+    content:"-30%";
+    padding: 4px;
+    font-size: x-small;
+    font-weight: 700;
+    display: inline-block;
+    background-color: var(--colore-bg-prezzi);
+}
+
+/*-----------
+    INFO PRODUCT
+------------*/
+
+.info-product {
+    font-size: small;
+}
+
+.info-product h4{
+    text-transform: uppercase;
+}
