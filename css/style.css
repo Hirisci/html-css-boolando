@@ -142,6 +142,7 @@ body{
 
 .info-product {
     font-size: small;
+    text-transform: capitalize;
 }
 
 .info-product h4{
@@ -150,6 +151,10 @@ body{
 .info-product span{
  margin-right: 4px;
 }
+
+.info-product .delate{
+    text-decoration: line-through;
+   }
 
 .info-product span.discount{
     font-weight: 700;
