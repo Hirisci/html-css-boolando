@@ -19,6 +19,7 @@ body{
 :root{
     --colore-bg-prezzi: #eb0037;
     --colore-bg-eco: #00875a;
+    --colore-prezzi-scontati: #ff0000;
 }
 
 
@@ -138,3 +139,14 @@ body{
 .info-product h4{
     text-transform: uppercase;
 }
+.info-product span{
+ margin-right: 4px;
+}
+
+.info-product span.discount{
+    font-weight: 700;
+    color: var(--colore-prezzi-scontati);
+}
+
+
+
