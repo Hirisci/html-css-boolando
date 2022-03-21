@@ -18,6 +18,11 @@ body{
 
 .container{
     max-width: 1200px;
+    margin: auto;
+}
+
+.row{
+    margin: 15px 0;
 }
 
 .clearfix::after{
@@ -26,8 +31,38 @@ body{
     clear: both;
 }
 
-
-
 /*-----------
     COMPONENT
 ------------*/
+
+.product{
+    float: left;
+    width: calc(100%/3 - 30px);
+    margin: 0 15px;
+}
+
+.img-product img{
+    width: 100%;
+}
+
+.img-product{
+    position: relative;
+}
+
+.img-product div{
+    position: absolute;
+}
+
+.wishlist{
+    background-color: white;
+    display: block;
+    height: 35px;
+    width: 35px;
+    text-align: center;
+    line-height: 35px;
+    font-size: 20px;
+    top: 16px;
+    right: 0;
+}
+
+.tag-box{}
