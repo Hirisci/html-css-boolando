@@ -45,25 +45,14 @@ body{
 }
 
 .product:hover .img-product img{
-    animation-name: scomparsa;
-    animation-duration: 1s;
-    opacity: 1;
+   opacity: 1; 
 }
-
-@keyframes scomparsa {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
-  }
 
 /*-----------
     COMPONENT
 ------------*/
 
-.product{
+.col{
     float: left;
     width: calc(100%/3 - 30px);
     margin: 0 15px;
@@ -79,6 +68,7 @@ body{
     display: block;
     position: relative;
     opacity: 0;
+    transition: 1.5s ease-in;
 }
 
 .img-product{
